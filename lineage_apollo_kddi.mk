@@ -4,14 +4,14 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from apollo (sony) device
-$(call inherit-product, device/sony/apollo/device.mk)
+# Inherit from apollo_kddi (sony) device
+$(call inherit-product, device/sony/apollo_kddi/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_apollo
-PRODUCT_DEVICE := apollo
+PRODUCT_NAME := lineage_apollo_kddi
+PRODUCT_DEVICE := apollo_kddi
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := Xperia XZ2 Compact

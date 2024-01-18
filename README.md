@@ -1,9 +1,9 @@
 Copyright (C) 2019 The LineageOS Project
 
-Device configuration for Sony Xperia XZ2 Compact
+Device configuration for Sony Xperia XZ2 Compact (apollo-kddi)
 =========================================
 
-The Sony Xperia XZ2 Compact (codenamed _"apollo"_) is a high-end smartphone from Sony.
+The Sony Xperia XZ2 Compact (kddi) (codenamed _"apollo-kddi"_) is a high-end smartphone from Sony.
 
 It was announced in July 2019. Release date was August 2019.
 
