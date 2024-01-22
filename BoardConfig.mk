@@ -4,8 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from tama-common
--include device/sony/tama-common/BoardConfigCommon.mk
+# Inherit from device_sony_tama
+include device/sony/tama/BoardConfigCommon.mk
 
 DEVICE_PATH := device/sony/apollo
 
@@ -16,14 +16,14 @@ TARGET_SCREEN_DENSITY := 480
 TARGET_KERNEL_CONFIG := tama_apollo_defconfig
 
 # HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 
 # Partitions
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 51448807424
 
 # Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
 
-# Inherit from the proprietary version
--include vendor/sony/apollo/BoardConfigVendor.mk
+# Inherit from vendor_sony_apollo
+include vendor/sony/tama/apollo/BoardConfigVendor.mk
