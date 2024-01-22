@@ -1,26 +1,25 @@
-Copyright (C) 2019 The LineageOS Project
+# Device Tree for the Xperia XZ2 Compact
 
-Device configuration for Sony Xperia XZ2 Compact (apollo-kddi)
-=========================================
+The Xperia XZ2 Compact (Codenamed "apollo_kddi") is a flagship smartphone from Sony released in April 2018.
 
-The Sony Xperia XZ2 Compact (kddi) (codenamed _"apollo-kddi"_) is a high-end smartphone from Sony.
+## Device Specifications
 
-It was announced in July 2019. Release date was August 2019.
+| Feature                 | Specification                                                                       |
+| :---------------------- | :-----------------------------------------------------------------------------------|
+| Chipset                 | Qualcomm® Snapdragon™ 845 (10 nm)                                                   |
+| CPU                     | Octa-Core (4x 2.7 GHz Kryo 385 Gold & 4x 1.7 GHz Kryo 385 Silver)                   |
+| GPU                     | Adreno 630                                                                          |
+| Memory                  | 4/6 GB LPDDR4X RAM                                                                  |
+| Shipped Android Version | 8                                                                                   |
+| Storage                 | 64 GB UFS 2.1 (Expandable with Micro SDCard)                                        |
+| SIM                     | Single/Dual SIM (1/2x Nano-SIMs)                                                    |
+| Battery                 | 2870 mAh Li-Po (Non-Removable), 18W Wired Fast Charging                             |
+| Dimensions              | 135 x 65 x 12.1 mm (5.31 x 2.56 x 0.48 in)                                          |
+| Display                 | 5.0 inch, 1080 x 2160 pixels, TRILUMINOS, X-Reality, P-OLED, HDR10                  |
+| Camera                  | 19 MP (Main), 5 MP (Front)                                                          |
+| Fingerprint             | Back Side, under the camera (Rear-Mounted)                                          |
+| Sensors                 | Accelerometer, Gyro, Proximity, Barometer, Compass, Color Spectrum                  |
 
-## Device specifications
+## Device Picture
 
-Basic   | Spec Sheet
--------:|:-------------------------
-SoC     | Qualcomm SDM845 Snapdragon 845
-CPU     | Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.8 GHz Kryo 385 Silver)
-GPU     | Adreno 630
-Memory  | 4 GB RAM
-Shipped Android Version | 8.0
-Storage | 64 GB
-Battery | Non-removable Li-Ion 3400 mAh battery
-Display | 1080 x 2160 pixels, 18:9 ratio, 5.99 inches, IPS LCD (~403 ppi density)
-Camera  | Dual 12 MP, 4-axis OIS, 2x optical zoom, dual PDAF, dual-LED (dual tone) flash
-
-## Device picture
-
-![Sony Xperia XZ2 Compact](https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-xz2-compact-001.jpg "Sony Xperia XZ2 Compact")
+![Xperia XZ2 Compact](https://i.imgur.com/K7YYNhk.png)
