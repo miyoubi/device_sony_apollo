@@ -11,6 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 $(call inherit-product, device/sony/tama/common.mk)
 
 # Inherit from vendor_sony_tama
+$(call inherit-product-if-exists, vendor/sony/tama/common-felica/common-vendor.mk)
 $(call inherit-product-if-exists, vendor/sony/tama/apollo/apollo-vendor.mk)
 
 # Boot animation
